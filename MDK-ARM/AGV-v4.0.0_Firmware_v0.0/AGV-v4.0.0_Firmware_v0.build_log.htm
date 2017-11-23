@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Bui Can, RTC, LIC=EXJCX-HJM8K-PAFDH-WM5TF-PG197-VP7RR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.23
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+D:\01. ElectricProject\01. AGV\04. AGV_v4.0 Alpha\AGV_v4.0_FIRMWARE Alpha\AGV-v4.0.0_Firmware_v0.0 - freeRTOS\MDK-ARM\AGV-v4.0.0_Firmware_v0.0.uvprojx
+Project File Date:  11/22/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'AGV-v4.0.0_Firmware_v0.0'
+compiling freertos.c...
+../Src/freertos.c(203): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i;
+../Src/freertos.c(256): warning:  #188-D: enumerated type mixed with another type
+  					HAL_GPIO_WritePin(
+ED_3_GPIO_Port,
+ED_3_Pin,1);
+../Src/freertos.c(261): warning:  #188-D: enumerated type mixed with another type
+  					HAL_GPIO_WritePin(
+ED_3_GPIO_Port,
+ED_3_Pin,0);
+../Src/freertos.c(269): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+ED_3_GPIO_Port,
+ED_3_Pin,0);
+../Src/freertos.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=48480 RO-data=1356 RW-data=404 ZI-data=45420  
+"AGV-v4.0.0_Firmware_v0.0\AGV-v4.0.0_Firmware_v0.0" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.1.1.pack
+                ARM::CMSIS:CORE:5.0.2
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.2
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_AGV-v4.0.0_Firmware_v0.0
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.2
+Build Time Elapsed:  00:00:10
+</pre>
+</body>
+</html>
